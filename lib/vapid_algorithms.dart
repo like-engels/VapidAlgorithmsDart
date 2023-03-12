@@ -1,3 +1,1 @@
-int calculate() {
-  return 6 * 7;
-}
+int sumFromOneTo(int n) => n * (n + 1) ~/ 2;

@@ -1,5 +1,10 @@
-import 'package:vapid_algorithms/vapid_algorithms.dart' as vapid_algorithms;
+import 'package:vapid_algorithms/vapid_algorithms.dart';
 
 void main(List<String> arguments) {
-  print('Hello world: ${vapid_algorithms.calculate()}!');
+  final start = DateTime.now();
+  final sum = sumFromOneTo(9000);
+  final end = DateTime.now();
+  final time = end.difference(start);
+
+  print("The sum is $sum and was made in $time");
 }
